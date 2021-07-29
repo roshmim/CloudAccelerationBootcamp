@@ -1,0 +1,11 @@
+{
+  "id":"com.adobe.aem.guides:aem-guides-wknd.all.analyse:jar:author:1.0-SNAPSHOT",
+  "configurations":  {
+    "com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider~wknd":    {
+      "mobile.resourceTypes":[
+        "wknd/components/page/page"
+      ],
+      "README":"Indicate which page resource types should display the mobile emulators."
+    }
+  }
+}

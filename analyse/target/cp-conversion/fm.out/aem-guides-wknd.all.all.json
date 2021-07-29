@@ -1,0 +1,38 @@
+{
+  "id":"com.adobe.aem.guides:aem-guides-wknd.all.analyse:1.0-SNAPSHOT",
+  "bundles":[
+    {
+      "id":"com.adobe.aem.guides:aem-guides-wknd.core:1.0-SNAPSHOT",
+      "start-order":"20"
+    }
+  ],
+  "configurations":  {
+    "org.apache.sling.commons.log.LogManager.factory.config~wknd":    {
+      "org.apache.sling.commons.log.file":"logs/project-wknd.log",
+      "org.apache.sling.commons.log.level":"warn",
+      "org.apache.sling.commons.log.names":[
+        "com.adobe.aem.guides.core"
+      ],
+      "org.apache.sling.commons.log.pattern":"{0,date,yyyy-MM-dd HH:mm:ss.SSS} {4} [{3}] {5}"
+    }
+  },
+  "content-packages:ARTIFACTS|true":[
+    "com.adobe.aem.guides:aem-guides-wknd.ui.apps:zip:cp2fm-converted:1.0-SNAPSHOT",
+    "com.adobe.aem.guides:aem-guides-wknd.ui.config:zip:cp2fm-converted:1.0-SNAPSHOT",
+    "com.adobe.aem.guides:aem-guides-wknd.ui.content:zip:cp2fm-converted:1.0-SNAPSHOT",
+    "com.adobe.aem.guides:aem-guides-wknd.all.all:zip:cp2fm-converted:1.0-SNAPSHOT"
+  ],
+  "api-regions:JSON|false":[
+    {
+      "name":"global",
+      "exports":[
+        "com.adobe.aem.guides.core.core.filters",
+        "com.adobe.aem.guides.core.core.listeners",
+        "com.adobe.aem.guides.core.core",
+        "com.adobe.aem.guides.core.core.schedulers",
+        "com.adobe.aem.guides.core.core.servlets",
+        "com.models"
+      ]
+    }
+  ]
+}

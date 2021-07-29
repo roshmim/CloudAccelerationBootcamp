@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
+Build-Jdk-Spec: 11
+Implementation-Title: WKND - UI config
+Implementation-Version: 1.0-SNAPSHOT
+Content-Package-Type: application
+Content-Package-Id: com.adobe.aem.guides:aem-guides-wknd.ui.config:1.0-S
+ NAPSHOT
+Content-Package-Description: UI config package for WKND
+Content-Package-Roots: /apps/wknd/osgiconfig
+

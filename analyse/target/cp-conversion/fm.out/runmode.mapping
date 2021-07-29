@@ -1,0 +1,7 @@
+#File edited by the Apache Sling Content Package to Sling Feature converter
+#Thu Jul 29 08:11:47 UTC 2021
+qa=aem-guides-wknd.all.all-qa.json
+dev=aem-guides-wknd.all.all-dev.json
+author=aem-guides-wknd.all.all-author.json
+(default)=aem-guides-wknd.all.all.json
+staging=aem-guides-wknd.all.all-staging.json
