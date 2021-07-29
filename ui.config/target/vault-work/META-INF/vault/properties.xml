@@ -4,7 +4,7 @@
 <comment>WKND - UI config</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
-<entry key="created">2021-07-29T08:11:43.568Z</entry>
+<entry key="created">2021-07-29T09:01:11.386Z</entry>
 <entry key="groupId">com.adobe.aem.guides</entry>
 <entry key="description">UI config package for WKND</entry>
 <entry key="version">1.0-SNAPSHOT</entry>
